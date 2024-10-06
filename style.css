@@ -1,10 +1,10 @@
-* {
+*{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
 }
-body {
+body{
     background-color: #E8E8E8;
 }
 .navbar {
@@ -23,92 +23,91 @@ body {
     background-color: #6A9AB0;
     color: black;
 }
-.hero {
+.hero{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 250px;
+    padding-right: 250px ;
     padding-left: 250px;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #001F3F;
 }
-.introduce {
+.introduce{
     padding-right: 200px;
     line-height: 3rem;
     word-spacing: 1;
     color: aliceblue;
 }
-.introduce h1 {
+.introduce h1{
     font-size: 2.5em;
 }
-.introduce p {
+.introduce p{
     font-size: 1.5em;
 }
-.image img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
+.image img{
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
 }
-.projects {
-    margin-top: 4vh;
+.projects{
+    margin-top: 4dvh;
 }
-.title-items {
+.title-items{
     text-align: center;
     margin-bottom: 50px;
+    
 }
-.title-items h2 {
+.title-items h2{
     font-size: 30px;
 }
-.title-items p {
+.title-items p{
     font-size: 20px;
 }
-.project-items {
+.project-items{
     display: flex;
     justify-content: space-between;
-    padding-right: 350px;
+    padding-right: 350px ;
     padding-left: 350px;
     color: #181818;
 }
-.project-item1 {
-    background-color: linear-gradient(#fafafa, #ebebeb);
+.project-item1{
+    background-color: linear-gradient(#fafafa,#ebebeb);
     box-shadow: 0 5px 15px 0 #00000026;
-    opacity: 0.9;
+    opacity: .9;
     border-radius: 10px;
     margin-right: 50px;
     margin-left: 50px;
     padding-bottom: 10px;
 }
-.project-item2 {
-    background-color: linear-gradient(#fafafa, #ebebeb);
+.project-item2{
+    background-color: linear-gradient(#fafafa,#ebebeb);
     box-shadow: 0 5px 15px 0 #00000026;
-    opacity: 0.9;
+    opacity: .9;
     border-radius: 10px;
     margin-right: 50px;
     margin-left: 50px;
     padding-bottom: 10px;
 }
-.project-item1 img {
-    width: 250px;
+.project-item1 img{
+    width: 250px; 
     height: 250px;
     border-radius: 10px;
 }
-.project-item2 img {
-    width: 250px;
+.project-item2 img{
+    width: 250px; 
     height: 250px;
     border-radius: 10px;
 }
-.project-item1 h2,
-p {
+.project-item1 h2, p{
     padding-left: 15px;
     line-height: 1.5;
 }
-.project-item2 h2,
-p {
+.project-item2 h2,  p{
     padding-left: 15px;
 }
-.project-item1 a {
+.project-item1 a{
     width: 500px;
     height: 35px;
     background: #222;
@@ -117,29 +116,30 @@ p {
     transition: background 0.3s;
     margin-left: 15px;
     padding-left: 50px;
-    padding-top: 2px;
+    padding-top: 2px ;
     padding-bottom: 2px;
     padding-right: 50px;
     border-radius: 0.15em;
+    
 }
-.project-item2 a {
+.project-item2 a{
     width: 500px;
     height: 35px;
     background: #222;
     color: #fff;
-    text-align: center;
+    text-align: center; 
     transition: background 0.3s;
     margin-left: 15px;
     padding-left: 50px;
-    padding-top: 2px;
+    padding-top: 2px ;
     padding-bottom: 2px;
     padding-right: 50px;
     border-radius: 0.15em;
 }
-footer {
+footer{
     display: flex;
     justify-content: space-between;
-    padding-right: 250px;
+    padding-right: 250px ;
     padding-left: 250px;
     margin-top: 50px;
     padding-top: 50px;
@@ -148,128 +148,22 @@ footer {
     color: #E8E8E8;
     background-color: #001F3F;
 }
-.kerjasama a {
+.kerjasama a{
     color: #E8E8E8;
 }
-.kerjasama a:hover {
- color: #3d3a3a;
-}
-.sosmed a {
-    color: #E8E8E8;
-}
-.sosmed a:hover {
+.kerjasama a:hover{
     color: #3d3a3a;
 }
-.icon-footer {
+
+.sosmed a{
+    color: #E8E8E8;
+}
+.sosmed a:hover{
+    color: #3d3a3a;
+}
+.icon-footer{
     width: 25px;
     margin-right: 5px;
     color: #E8E8E8;
-}
-
-
-@media only screen and (max-width: 1200px) {
-    .navbar a {
-        padding: 14px 50px 14px 50px;
-    }
-    .hero {
-        padding-right: 100px;
-        padding-left: 100px;
-    }
-    .project-items {
-        padding-right: 100px;
-        padding-left: 100px;
-    }
-    .project-item1 img {
-        width: 200px;
-        height: 200px;
-    }
-    .project-item2 img {
-        width: 200px;
-        height: 200px;
-    }
-    .project-item1 a {
-        width: 300px;
-    }
-    .project-item2 a {
-        width: 300px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .navbar a {
-        padding: 14px 20px 14px 20px;
-    }
-    .hero {
-        padding-right: 50px;
-        padding-left: 50px;
-    }
-    .project-items {
-        padding-right: 50px;
-        padding-left: 50px;
-    }
-    .project-item1 img {
-        width: 150px;
-        height: 150px;
-    }
-    .project-item2 img {
-        width: 150px;
-        height: 150px;
-    }
-    .project-item1 a {
-        width: 200px;
-    }
-    .project-item2 a {
-        width: 200px;
-    }
-}
-
-@media only screen and (min-width: 480px) {
-    .navbar a {
-        padding: 14px 10px 14px 10px;
-    }
-    .hero {
-        padding-right: 20px;
-        padding-left: 20px;
-        justify-content: center;
-        font-size: xx-small;
-    }
-    .introduce {
-        padding-right: 70px;
-        line-height: 1rem;
-        word-spacing: 1;
-        color: aliceblue;
-    }
-    .introduce h1 {
-        font-size: 2em;
-    }
-    .introduce p {
-        font-size: 1.5em;
-    }
-    .image img{
-        width: 150px;
-        height: 150px;
-    }
-    .project-items {
-        padding-right: 10px;
-        padding-left: 10px;
-        justify-content: center;
-    }
-    .project-item1 img {
-        width: 100%;
-        height: 100px;
-    }
-    .project-item2 img {
-        width: 100%;
-        height: 100px;
-    }
-    .project-item1 a {
-        width: 100px;
-    }
-    .project-item2 a {
-        width: 100px;
-    }
-    footer {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
+    
 }
